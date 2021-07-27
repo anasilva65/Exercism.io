@@ -24,8 +24,8 @@ defmodule RnaTranscription do
   @spec to_rna([char]) :: [char]
   def to_rna(dna) do
     dna
-    |> Enum.map(fn char->
-
+    |> Enum.map(fn char ->
+      Map.get(@dna_nucleotide_to_rna_nucleotide_map, char)
     end)
   end
 end
