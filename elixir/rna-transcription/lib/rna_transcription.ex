@@ -16,7 +16,6 @@ defmodule RnaTranscription do
   Transcribes a character list representing DNA nucleotides to RNA
 
   ## Examples
-
   iex> RnaTranscription.to_rna('ACTG')
   'UGAC'
   """
