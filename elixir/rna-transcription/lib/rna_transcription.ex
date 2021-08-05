@@ -11,6 +11,7 @@ defmodule RnaTranscription do
 
     # `A` -> `U`
     65 => 85
+
   }
   @doc """
   Transcribes a character list representing DNA nucleotides to RNA
